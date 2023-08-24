@@ -1,7 +1,5 @@
 ## Aim:
 Aim of this project is to design and implement a parallel map reduce system using Google Cloud functions.
-Github link for the project: https://github.com/anuraghambir/Map-Reduce-GCP
-
 
 ## Design Details:
 1. Cloud functions are used to create the master, mapper, and reducer. For
