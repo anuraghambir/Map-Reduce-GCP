@@ -45,11 +45,10 @@ text file which needs to be uploaded as well as the service account key
 through command line arguments.
 
 ## Execution instructions:
-1. User can click on the url: https://storage.googleapis.com/web-uianurag/
-web-ui.html
+1. User can click on the url: https://storage.googleapis.com/web-uianurag/web-ui.html
 2. After clicking the url, you can enter the term in search box and a list of files
 containing the term in descending order of its frequency in the files will be
 obtained.
 3. A new file can be added to the input bucket through the following command.
 python3 src/add_file_to_gcs.py <file_location> <service_account_key>
-![image](https://github.com/anuraghambir/Map-Reduce-GCP/assets/66880947/36dc29da-173c-4be2-a084-e43b36ece8ca)
+
