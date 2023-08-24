@@ -2,8 +2,8 @@
 Aim of this project is to design and implement a parallel map reduce system using Google Cloud functions.
 Github link for the project: https://github.com/anuraghambir/Map-Reduce-GCP
 
-## Map-Reduce on Cloud Functions
-### Design Details:
+
+## Design Details:
 1. Cloud functions are used to create the master, mapper, and reducer. For
 this function, HTTP trigger is used.
 2. All the data, including input, intermediate, and output files are all stored in
@@ -20,7 +20,7 @@ frequency of occurrence of each term.
 8. After the process is finished, all the intermediate files are deleted with only
 the output file being stored in the output bucket.
 
-### Front End:
+## Front End:
 1. A front-end is created using HTML and Javascript is used to search for the
 occurrence of a term in the input files.
 2. You can access the front-end by clicking on the following link,
@@ -34,7 +34,7 @@ the value for the respective term.
 
 
 
-### Streaming Search:
+## Streaming Search:
 1. Whenever a new file is added in the output bucket, the map reduce
 operation is invoked through a trigger and a new output file is generated.
 2. This is done by using ‘Storage Trigger’ based cloud function. Internally,
